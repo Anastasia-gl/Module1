@@ -1,0 +1,15 @@
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\bin\Debug\net6.0\Module1.exe
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\bin\Debug\net6.0\Module1.deps.json
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\bin\Debug\net6.0\Module1.runtimeconfig.json
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\bin\Debug\net6.0\Module1.dll
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\bin\Debug\net6.0\ref\Module1.dll
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\bin\Debug\net6.0\Module1.pdb
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.csproj.AssemblyReference.cache
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.AssemblyInfoInputs.cache
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.AssemblyInfo.cs
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.csproj.CoreCompileInputs.cache
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.dll
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\ref\Module1.dll
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.pdb
+C:\Users\Anastasia\Desktop\Обучение\Module1\Module1\obj\Debug\net6.0\Module1.genruntimeconfig.cache
