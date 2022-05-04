@@ -1,48 +1,49 @@
 ﻿using System;
 using System.Linq;
 
-namespace Module1
+namespace Pract
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Random random = new Random();
-            int size = Convert.ToInt32(Console.ReadLine());
-            int[] numbers = new int[size];
-            int[] odd = new int[numbers.Length];
-            int[] notOdd = new int[numbers.Length];
+            int[] numbers = ArrayWithRandomNumbers();
+            int[] notOdd = NotOddArray();
+            int[] odd = OddArray();
             char[] charArrToUpper = new char[] { 'a', 'e', 'i', 'd', 'h', 'j' };
-            char[] charArr = new char[] { '0', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
-
-            // Заполняю массив случаныйми числами
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                numbers[i] = random.Next(1, 26);
-            }
-
-            Console.WriteLine();
+            char[] abc = Alphabet();
 
             // Заполняю 1 массив только четными
-            for (int i = 0; i < numbers.Length; i++)
+            int[] NotOddArray()
             {
-                if (numbers[i] % 2 == 0)
+                int[] notOddArry = new int[numbers.Length];
+                for (int i = 0; i < numbers.Length; i++)
                 {
-                    notOdd[i] = numbers[i];
-                    Console.Write(notOdd[i] + " ");
+                    if (numbers[i] % 2 == 0)
+                    {
+                        notOddArry[i] = numbers[i];
+                        Console.Write(notOddArry[i] + " ");
+                    }
                 }
+
+                return notOddArry;
             }
 
-            Console.WriteLine();
-
-            // Заполняю 2 массив нечетными
-            for (int i = 0; i < numbers.Length; i++)
+            // Заполняю 2 массив только нечетными
+            int[] OddArray()
             {
-                if (numbers[i] % 2 != 0)
+                Console.WriteLine();
+                int[] oddArray = new int[numbers.Length];
+                for (int i = 0; i < numbers.Length; i++)
                 {
-                    odd[i] = numbers[i];
-                    Console.Write(odd[i] + " ");
+                    if (numbers[i] % 2 != 0)
+                    {
+                        oddArray[i] = numbers[i];
+                        Console.Write(oddArray[i] + " ");
+                    }
                 }
+
+                return oddArray;
             }
 
             Console.WriteLine();
@@ -53,7 +54,7 @@ namespace Module1
             {
                 if (notOdd[i] != 0)
                 {
-                    replace += charArr[notOdd[i]].ToString();
+                    replace += abc[notOdd[i]].ToString();
                 }
             }
 
@@ -78,11 +79,12 @@ namespace Module1
 
             // Заменяю на буквы алфавита, где значения нечетного массива совпадают с порядковым номером букв
             string replaceToo = string.Empty;
+
             for (int i = 0; i < odd.Length; i++)
             {
                 if (odd[i] != 0)
                 {
-                    replaceToo += charArr[odd[i]].ToString();
+                    replaceToo += abc[odd[i]].ToString();
                 }
             }
 
@@ -124,6 +126,34 @@ namespace Module1
             }
 
             Console.ReadKey();
+        }
+
+        public static char[] Alphabet()
+        {
+            char[] alphabet = new char[27];
+            int count = 1;
+            for (char i = 'a'; i <= 'z'; i++)
+            {
+                alphabet[count++] = i;
+            }
+
+            return alphabet;
+        }
+
+        public static int[] ArrayWithRandomNumbers()
+        {
+            Random random = new Random();
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] numbers1 = new int[size];
+
+            // Заполняю массив случаныйми числами
+            for (int i = 0; i < numbers1.Length; i++)
+            {
+                numbers1[i] = random.Next(1, 26);
+            }
+
+            Console.WriteLine();
+            return numbers1;
         }
     }
 }

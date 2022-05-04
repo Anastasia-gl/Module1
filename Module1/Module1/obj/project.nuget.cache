@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YqypaeEto1JRic3voCaeKbwfu6MTdnQC6oyAW+GTxA37yXhVe6wQIugaNyMx5tBPLOMjJnYq0NLObb++lFgHIg==",
+  "dgSpecHash": "HT7bYgB0YMhA4JWUA1Uea07shDeWW25/Gd2FUENxM+SnP3owpINZ+g7f5NUfFq9y+tPHKRhegyyNS6xjMIY1lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anastasia\\Desktop\\Обучение\\Module1\\Module1\\Module1.csproj",
+  "projectFilePath": "C:\\Users\\Anastasia\\Desktop\\Module1\\Module1\\Module1\\Module1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anastasia\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
